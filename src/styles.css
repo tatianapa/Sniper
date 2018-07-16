@@ -19,13 +19,13 @@
        column-count: 3;
     }
   }
-   
+  
   @media (max-width: 768px) {
     .responsive-banner {
-       background-image:  url('assets/banner_mobile.png');
+       background-image:  url('assets/banner_mobile (1).png');
     }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1024px and min-width: 768px) {
     .responsive-banner {
        background-image:  url('assets/banner_tablet.png');
     }
