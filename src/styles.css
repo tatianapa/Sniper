@@ -2,7 +2,7 @@
 /* Layout styles -----------------------------------*/
 @media (min-width: 620px) {
     main {
-      column-count: 2;
+      column-count: 1;
       column-gap: 20px;
     }
     
@@ -16,16 +16,17 @@
   
   @media (min-width: 960px) {
     main {
-       column-count: 3;
+       column-count: 1;
     }
   }
   
   @media (max-width: 768px) {
     .responsive-banner {
-       background-image:  url('assets/banner_mobile (1).png');
+       background-image:  url('assets/banner_mobile.jpg');
+       background-size: 100% 100%;
     }
   }
-  @media (max-width: 1024px and min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
     .responsive-banner {
        background-image:  url('assets/banner_tablet.png');
     }

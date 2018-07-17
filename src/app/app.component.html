@@ -6,10 +6,10 @@
                 </div>
         <div class="options">
                 
-          <a href="#" class="options-link link-active">צור קשר</a>
-          <a href="#" class="options-link">תמונות</a>
-          <a href="#" class="options-link">אודות</a>
-          <a href="#" class="options-link">סנייפר - מטווח ירי</a>
+          <a routerLink="contact" class="options-link link-active">צור קשר</a>
+          <a routerLink="gallery" class="options-link">תמונות</a>
+          <a routerLink="about" class="options-link">אודות</a>
+          <a routerLink="" class="options-link">סנייפר - מטווח ירי</a>
          
         </div>
         
@@ -17,37 +17,9 @@
     <main>
             
      <section>
-        <h2>The Title</h2>
-        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-        <a href="#" class="info-link">Learn more...</a>
+        <router-outlet></router-outlet>
       </section>
-      <section>
-        <h2>The Title</h2>
-        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-        <img class="section-img" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/emoji-one/104/chart-with-upwards-trend_1f4c8.png" alt="important graph">
-        <a href="#" class="info-link">Learn more...</a>
-      </section>
-      <section>
-        <h2>The Title</h2>
-        <img class="section-img profile" src="http://placekitten.com/260/260" />
-        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-        <a href="#" class="info-link">Learn more...</a>
-      </section>
-      <section class="bigbottom">
-        <h2>The Title</h2>
-        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-        <a class="bigbottom-link info-link" href="#" class="info-link">Learn more...</a>
-      </section>
-      <section class="bigtitle">
-        <h2 class="bigtitle-title">The Title</h2>
-        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-        <a href="#" class="info-link">Learn more...</a>
-      </section>
-      <section>
-        <h2>The Title</h2>
-        <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-        <a href="#" class="info-link">Learn more...</a>
-      </section>
+     
     </main>
 
 
