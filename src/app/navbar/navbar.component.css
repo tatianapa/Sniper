@@ -1,6 +1,35 @@
 .nav.navbar-nav.navbar-right li a {
     color: #B9B18B;
 }
-
+@media screen and (max-width: 400px){
+    .responsive-banner {
+       background-image:  url('../../assets/banner_mobile_300px.jpg');
+       height: 150px;
+    }
+  }
+  @media screen and (max-width: 500px) and (min-width: 400px){
+    .responsive-banner {
+       background-image:  url('../../assets/banner_mobile_700px.jpg');
+      height: 200px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) and (min-width: 500px){
+    .responsive-banner {
+       background-image:  url('../../assets/banner_mobile_800px.jpg');
+      height: 300px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .responsive-banner {
+       background-image:  url('../../assets/banner_tablet.png');
+       
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .responsive-banner {
+       background-image:  url('../../assets/banner_desktop.png');
+    }
+  }
  
   
