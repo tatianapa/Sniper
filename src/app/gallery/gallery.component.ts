@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import 'hammerjs';
 
 @Component({
   selector: 'app-gallery',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent implements OnInit {
 
+
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    
   }
-
 }
