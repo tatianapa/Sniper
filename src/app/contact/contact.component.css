@@ -1,0 +1,17 @@
+#contact{
+    padding: 10px;
+}
+.fas{
+    padding: 10px;
+}
+a:link {
+    color: #020202;
+    
+}
+
+
+
+/* mouse over link */
+a:hover {
+    color: #58491A;
+}
