@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* Layout styles -----------------------------------*/
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 @media (min-width: 620px) {
     main {
       column-count: 1;

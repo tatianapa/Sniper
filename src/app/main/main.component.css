@@ -10,3 +10,16 @@
 #sniperList{
     line-height: 1.6;
 }
+li{
+    list-style-type: none;
+  }
+  li:before{
+    content: '\f05b';
+    font-family: "FontAwesome";
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 30px;
+    }
+    
