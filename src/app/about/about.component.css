@@ -1,0 +1,31 @@
+#contact{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#howItWorks{
+    color: #584A19;
+    text-align: center;
+    text-decoration: underline;
+}
+#sniperList{
+    line-height: 1.6;
+}
+li{
+    list-style-type: none;
+  }
+  li:before{
+    content: '\f05b';
+    font-family: "FontAwesome";
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 30px;
+    }
+
+.adds{
+    padding: 15px;
+    border-radius: 25px;
+    border: 2px solid  #7F6941;
+    box-shadow: 5px 5px #393A3C;
+}
